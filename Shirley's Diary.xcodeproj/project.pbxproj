@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C34FB852D3BFC9D00F56597 /* DearDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DearDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C34FB972D3BFC9D00F56597 /* DearDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DearDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C34FBA12D3BFC9D00F56597 /* DearDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DearDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C34FB852D3BFC9D00F56597 /* Shirely's Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shirely's Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C34FB972D3BFC9D00F56597 /* Shirley's DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shirley's DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C34FBA12D3BFC9D00F56597 /* Shirley's DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shirley's DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1C34FB872D3BFC9D00F56597 /* DearDiary */ = {
+		1C34FB872D3BFC9D00F56597 /* ShirleysDiary */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DearDiary;
+			path = ShirleysDiary;
 			sourceTree = "<group>";
 		};
-		1C34FB9A2D3BFC9D00F56597 /* DearDiaryTests */ = {
+		1C34FB9A2D3BFC9D00F56597 /* ShirleysDiaryTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DearDiaryTests;
+			path = ShirleysDiaryTests;
 			sourceTree = "<group>";
 		};
-		1C34FBA42D3BFC9D00F56597 /* DearDiaryUITests */ = {
+		1C34FBA42D3BFC9D00F56597 /* ShirleysUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DearDiaryUITests;
+			path = ShirleysUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		1C34FB7C2D3BFC9D00F56597 = {
 			isa = PBXGroup;
 			children = (
-				1C34FB872D3BFC9D00F56597 /* DearDiary */,
-				1C34FB9A2D3BFC9D00F56597 /* DearDiaryTests */,
-				1C34FBA42D3BFC9D00F56597 /* DearDiaryUITests */,
+				1C34FB872D3BFC9D00F56597 /* ShirleysDiary */,
+				1C34FB9A2D3BFC9D00F56597 /* ShirleysDiaryTests */,
+				1C34FBA42D3BFC9D00F56597 /* ShirleysUITests */,
 				1C34FB862D3BFC9D00F56597 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		1C34FB862D3BFC9D00F56597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C34FB852D3BFC9D00F56597 /* DearDiary.app */,
-				1C34FB972D3BFC9D00F56597 /* DearDiaryTests.xctest */,
-				1C34FBA12D3BFC9D00F56597 /* DearDiaryUITests.xctest */,
+				1C34FB852D3BFC9D00F56597 /* Shirely's Diary.app */,
+				1C34FB972D3BFC9D00F56597 /* Shirley's DiaryTests.xctest */,
+				1C34FBA12D3BFC9D00F56597 /* Shirley's DiaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C34FB842D3BFC9D00F56597 /* DearDiary */ = {
+		1C34FB842D3BFC9D00F56597 /* Shirley's Diary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C34FBAB2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiary" */;
+			buildConfigurationList = 1C34FBAB2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's Diary" */;
 			buildPhases = (
 				1C34FB812D3BFC9D00F56597 /* Sources */,
 				1C34FB822D3BFC9D00F56597 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1C34FB872D3BFC9D00F56597 /* DearDiary */,
+				1C34FB872D3BFC9D00F56597 /* ShirleysDiary */,
 			);
-			name = DearDiary;
+			name = "Shirley's Diary";
 			packageProductDependencies = (
 			);
 			productName = DearDiary;
-			productReference = 1C34FB852D3BFC9D00F56597 /* DearDiary.app */;
+			productReference = 1C34FB852D3BFC9D00F56597 /* Shirely's Diary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1C34FB962D3BFC9D00F56597 /* DearDiaryTests */ = {
+		1C34FB962D3BFC9D00F56597 /* Shirley's DiaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C34FBAE2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiaryTests" */;
+			buildConfigurationList = 1C34FBAE2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's DiaryTests" */;
 			buildPhases = (
 				1C34FB932D3BFC9D00F56597 /* Sources */,
 				1C34FB942D3BFC9D00F56597 /* Frameworks */,
@@ -131,18 +131,18 @@
 				1C34FB992D3BFC9D00F56597 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1C34FB9A2D3BFC9D00F56597 /* DearDiaryTests */,
+				1C34FB9A2D3BFC9D00F56597 /* ShirleysDiaryTests */,
 			);
-			name = DearDiaryTests;
+			name = "Shirley's DiaryTests";
 			packageProductDependencies = (
 			);
 			productName = DearDiaryTests;
-			productReference = 1C34FB972D3BFC9D00F56597 /* DearDiaryTests.xctest */;
+			productReference = 1C34FB972D3BFC9D00F56597 /* Shirley's DiaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1C34FBA02D3BFC9D00F56597 /* DearDiaryUITests */ = {
+		1C34FBA02D3BFC9D00F56597 /* Shirley's DiaryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C34FBB12D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiaryUITests" */;
+			buildConfigurationList = 1C34FBB12D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's DiaryUITests" */;
 			buildPhases = (
 				1C34FB9D2D3BFC9D00F56597 /* Sources */,
 				1C34FB9E2D3BFC9D00F56597 /* Frameworks */,
@@ -154,13 +154,13 @@
 				1C34FBA32D3BFC9D00F56597 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1C34FBA42D3BFC9D00F56597 /* DearDiaryUITests */,
+				1C34FBA42D3BFC9D00F56597 /* ShirleysUITests */,
 			);
-			name = DearDiaryUITests;
+			name = "Shirley's DiaryUITests";
 			packageProductDependencies = (
 			);
 			productName = DearDiaryUITests;
-			productReference = 1C34FBA12D3BFC9D00F56597 /* DearDiaryUITests.xctest */;
+			productReference = 1C34FBA12D3BFC9D00F56597 /* Shirley's DiaryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C34FB802D3BFC9D00F56597 /* Build configuration list for PBXProject "DearDiary" */;
+			buildConfigurationList = 1C34FB802D3BFC9D00F56597 /* Build configuration list for PBXProject "Shirley's Diary" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C34FB842D3BFC9D00F56597 /* DearDiary */,
-				1C34FB962D3BFC9D00F56597 /* DearDiaryTests */,
-				1C34FBA02D3BFC9D00F56597 /* DearDiaryUITests */,
+				1C34FB842D3BFC9D00F56597 /* Shirley's Diary */,
+				1C34FB962D3BFC9D00F56597 /* Shirley's DiaryTests */,
+				1C34FBA02D3BFC9D00F56597 /* Shirley's DiaryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		1C34FB992D3BFC9D00F56597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C34FB842D3BFC9D00F56597 /* DearDiary */;
+			target = 1C34FB842D3BFC9D00F56597 /* Shirley's Diary */;
 			targetProxy = 1C34FB982D3BFC9D00F56597 /* PBXContainerItemProxy */;
 		};
 		1C34FBA32D3BFC9D00F56597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C34FB842D3BFC9D00F56597 /* DearDiary */;
+			target = 1C34FB842D3BFC9D00F56597 /* Shirley's Diary */;
 			targetProxy = 1C34FBA22D3BFC9D00F56597 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DearDiary/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ShirleysDiary/Preview Content\"";
 				DEVELOPMENT_TEAM = GC9324MAV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,8 +409,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = avenau.DearDiary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = avenau.ShirleyDiary;
+				PRODUCT_NAME = "Shirely's Diary";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DearDiary/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ShirleysDiary/Preview Content\"";
 				DEVELOPMENT_TEAM = GC9324MAV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,8 +438,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = avenau.DearDiary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = avenau.ShirleyDiary;
+				PRODUCT_NAME = "Shirely's Diary";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DearDiary";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shirley's Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shirley's Diary";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DearDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DearDiary";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shirley's Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shirley's Diary";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C34FB802D3BFC9D00F56597 /* Build configuration list for PBXProject "DearDiary" */ = {
+		1C34FB802D3BFC9D00F56597 /* Build configuration list for PBXProject "Shirley's Diary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C34FBA92D3BFC9D00F56597 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C34FBAB2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiary" */ = {
+		1C34FBAB2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's Diary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C34FBAC2D3BFC9D00F56597 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C34FBAE2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiaryTests" */ = {
+		1C34FBAE2D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's DiaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C34FBAF2D3BFC9D00F56597 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C34FBB12D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "DearDiaryUITests" */ = {
+		1C34FBB12D3BFC9D00F56597 /* Build configuration list for PBXNativeTarget "Shirley's DiaryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C34FBB22D3BFC9D00F56597 /* Debug */,
